@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nesperas",
+      "handler": "nespera.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nesperas/count",
+      "handler": "nespera.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nesperas/:id",
+      "handler": "nespera.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nesperas",
+      "handler": "nespera.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nesperas/:id",
+      "handler": "nespera.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nesperas/:id",
+      "handler": "nespera.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
