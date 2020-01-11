@@ -18,14 +18,17 @@
     "optionB": {
       "type": "string"
     },
-    "authorId": {
-      "type": "string"
+    "votedA": {
+      "plugin": "users-permissions",
+      "collection": "user"
     },
-    "amountOfA": {
-      "type": "integer"
+    "votedB": {
+      "plugin": "users-permissions",
+      "collection": "user"
     },
-    "amountOfB": {
-      "type": "integer"
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
